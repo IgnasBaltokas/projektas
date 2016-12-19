@@ -64,8 +64,8 @@ h1 {
   font-size: 2em;
 }
 mark {
-  color: #000;
-  background: #ff0;
+  color: rgba(0, 0, 0, 0.75);
+  background: #a6ff0e;
 }
 small {
   font-size: 80%;
