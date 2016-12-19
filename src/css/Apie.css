@@ -1,0 +1,15 @@
+.konkrečiaiapiemus{
+    text-align: center;
+}
+.collapses {
+    display: none;
+}
+.collapses.in {
+    display: block;
+}
+tr.collapses.in {
+    display: table-row;
+}
+tbody.collapses.in {
+    display: table-row-group;
+}
