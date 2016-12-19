@@ -4,6 +4,7 @@
  * Licensed under the MIT license
  */
 
+/*
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
@@ -15,6 +16,15 @@ if (typeof jQuery === 'undefined') {
     throw new Error('Bootstrap\'s JavaScript requires jQuery version 1.9.1 or higher')
   }
 }(jQuery);
+
+/!* ========================================================================
+ * Bootstrap: transition.js v3.3.5
+ * http://getbootstrap.com/javascript/#transitions
+ * ========================================================================
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== *!/
+
 
 +function ($) {
   'use strict';
@@ -67,13 +77,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: alert.js v3.3.5
  * http://getbootstrap.com/javascript/#alerts
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -162,13 +172,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: button.js v3.3.5
  * http://getbootstrap.com/javascript/#buttons
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -283,13 +293,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: carousel.js v3.3.5
  * http://getbootstrap.com/javascript/#carousel
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -521,13 +531,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: collapse.js v3.3.5
  * http://getbootstrap.com/javascript/#collapse
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -733,13 +743,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: dropdown.js v3.3.5
  * http://getbootstrap.com/javascript/#dropdowns
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -899,13 +909,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: modal.js v3.3.5
  * http://getbootstrap.com/javascript/#modals
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -1237,14 +1247,14 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: tooltip.js v3.3.5
  * http://getbootstrap.com/javascript/#tooltip
  * Inspired by the original jQuery.tipsy by Jason Frame
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -1612,7 +1622,7 @@ if (typeof jQuery === 'undefined') {
     return placement == 'bottom' ? { top: pos.top + pos.height,   left: pos.left + pos.width / 2 - actualWidth / 2 } :
            placement == 'top'    ? { top: pos.top - actualHeight, left: pos.left + pos.width / 2 - actualWidth / 2 } :
            placement == 'left'   ? { top: pos.top + pos.height / 2 - actualHeight / 2, left: pos.left - actualWidth } :
-        /* placement == 'right' */ { top: pos.top + pos.height / 2 - actualHeight / 2, left: pos.left + pos.width }
+        /!* placement == 'right' *!/ { top: pos.top + pos.height / 2 - actualHeight / 2, left: pos.left + pos.width }
 
   }
 
@@ -1752,13 +1762,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: popover.js v3.3.5
  * http://getbootstrap.com/javascript/#popovers
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -1861,13 +1871,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: scrollspy.js v3.3.5
  * http://getbootstrap.com/javascript/#scrollspy
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -2034,13 +2044,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: tab.js v3.3.5
  * http://getbootstrap.com/javascript/#tabs
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -2190,13 +2200,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
+/!* ========================================================================
  * Bootstrap: affix.js v3.3.5
  * http://getbootstrap.com/javascript/#affix
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== *!/
 
 
 +function ($) {
@@ -2352,3 +2362,4 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+*/
