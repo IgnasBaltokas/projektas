@@ -31,8 +31,10 @@ button{
     float: right;
 
 }
-p{
-
+.tekstas {
+    color: #ac2925;
+    font-family: Calibri;
+font-size: 40px;
     text-align: center;
 }
 
