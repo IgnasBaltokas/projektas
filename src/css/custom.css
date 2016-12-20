@@ -1,5 +1,6 @@
 body {
     padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+    background-color: rgba(35,57,26,0.2)
 }
 
 .portfolio-item {
@@ -26,8 +27,8 @@ body {
 	padding: 30px 0;
 }
 
-.img-responsive{
-
+button{
+    float: right;
 
 }
 p{
