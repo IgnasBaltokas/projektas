@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Portfolio, 2 Column</title>
+    <title>EglisaHandMade</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="src/css/bootstrap.css">
 
-    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <!--Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
     <link rel="stylesheet" href="src/css/custom.css">
     <link rel="stylesheet" href="src/css/Apie.css">
 
@@ -25,6 +25,13 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -68,6 +75,65 @@
 
 </nav>
 
+<div class="container">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <img src="src/pictures/15032308_1385913438086661_7471027308842516511_n.jpg" height="723" width="724"/>
+                <div class="carousel-caption">
+                    <h3>Pėdutės</h3>
+                    <p>Prekės aprašymas.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="src/pictures/15032847_1385907601420578_2904714286766267430_n.jpg" height="699" width="699"/>
+                <div class="carousel-caption">
+                    <h3>Paukščiukai</h3>
+                    <p>Prekės aprašymas</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="src/pictures/15032890_1385913448086660_1485710228594869623_n.jpg" height="638" width="637"/>
+                <div class="carousel-caption">
+                    <h3>Pėdutės</h3>
+                    <p>Prekės aprašymas.</p>
+                </div>
+            </div>
+
+            <div class="item">
+               <img src="src/pictures/15110245_1385910011420337_8150649659147828340_o.jpg" height="600" width="600"/>
+                <div class="carousel-caption">
+                    <h3>Avytės</h3>
+                           <p>Prekės aprašymas.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Prieštai</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Sekantis</span>
+        </a>
+    </div>
+</div>
 
 
 
