@@ -528,12 +528,12 @@ th {
 .glyphicon-eject:before {
   content: "\e078";
 }
-.glyphicon-chevron-left:before {
+/*.glyphicon-chevron-left:before {
   content: "\e079";
-}
-.glyphicon-chevron-right:before {
+}*/
+/*glyphicon-chevron-right:before {
   content: "\e080";
-}
+}*/
 .glyphicon-plus-sign:before {
   content: "\e081";
 }
