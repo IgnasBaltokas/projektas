@@ -594,9 +594,7 @@ th {
 .glyphicon-leaf:before {
   content: "\e103";
 }
-.glyphicon-fire:before {
-  content: "\e104";
-}
+
 .glyphicon-eye-open:before {
   content: "\e105";
 }
