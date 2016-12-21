@@ -52,12 +52,12 @@ app.controller("prekiukmController", function () {
             }
         ];
 
-    mc.prekiukm = [];
+    mc.prekiukm = JSON.parse(localStorage.getItem("prekiukrepselis")) ||[];
 
-    vm.pridetiPreke = function (pid) {
-        var produktas = mc.prekiumasyvas[pid];
+    mc.pridetiPreke = function (produktas) {
+        console.log('pridejau preke');
         mc.prekiukm.push(produktas);
+        localStorage.setItem("prekiukrepselis", JSON.stringify(mc.prekiukm));
     }
-
 
 });

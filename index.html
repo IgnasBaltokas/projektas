@@ -101,7 +101,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" ng-controller="prekiukmController as pkmc">
         <div class="col-md-4 portfolio-item" ng-repeat="preke in mc.prekiumasyvas">
             <a href="#">
                 <img class="img-responsive"
@@ -114,7 +114,7 @@
                 <a href="#"></a>
             </h3>
             <p> Čia turėtų būti prekės aprašymas.</p>
-            <button onclick="myFunction()">Pridėti į krepšelį</button>
+            <button ng-click="pkmc.pridetiPreke(preke)">Pridėti į krepšelį</button>
         </div>
     </div>
 
@@ -164,6 +164,7 @@
 
 <script src="src/js/angular.min.js"></script>
 <script src="src/js/main.js"></script>
+<script src="src/js/prekiukrepselis.js"></script>
 <script src="src/js/prekiukatalogas.js"></script>
 <script src="src/js/jquery-1.11.3.min.js"></script>
 
