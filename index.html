@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Template by Quackit.com -->
-<html lang="en" xmlns="http://www.w3.org/1999/html" ng-app="prekiukrepselis">
+<html lang="en" xmlns="http://www.w3.org/1999/html" ng-app="prekiukatalogas">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,6 @@
 
     <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
     <link rel="stylesheet" href="src/css/custom.css">
-
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -109,12 +108,17 @@
                      src="{{preke.img}}" height="638"
                      width="637"/></a>
             <h3>
+
                 <a href="{{preke.url}}">{{preke.Pavadinimas}}</a>
+
+                <a href="#"></a>
             </h3>
-            <p>{{preke.aprasymas}}</p>
-            <button ng-click="pridetiPreke(preke.id)">Pridėti į krepšelį</button>
+            <p> Čia turėtų būti prekės aprašymas.</p>
+            <button onclick="myFunction()">Pridėti į krepšelį</button>
         </div>
     </div>
+
+
 
     <div class="row text-center">
         <div class="col-lg-12">
@@ -159,7 +163,8 @@
 </footer>
 
 <script src="src/js/angular.min.js"></script>
-<script src="src/js/prekiukrepselis.js"></script>
+<script src="src/js/main.js"></script>
+<script src="src/js/prekiukatalogas.js"></script>
 <script src="src/js/jquery-1.11.3.min.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
