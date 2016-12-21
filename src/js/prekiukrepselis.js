@@ -1,9 +1,9 @@
 /**
  * Created by Artės on 2016-12-21.
  */
-var app = angular.module("Prekiu krepselis", ["ngRoute"]);
+var app = angular.module("prekiukrepselis", []);
 
-app.controller("MainControler", function () {
+app.controller("MainController", function () {
 
     var mc = this;
     mc.prekiumasyvas = [
