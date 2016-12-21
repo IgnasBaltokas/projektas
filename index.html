@@ -25,7 +25,7 @@
 
 </head>
 
-<body ng-cloak ng-controler="MainControler as mc">
+<body ng-cloak ng-controller="MainControler as mc">
 
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -98,90 +98,20 @@
         </div>
     </div>
     <!-- /.row -->
-
     <!-- Projects Row -->
     <div class="row">
-        <div class="col-md-6 portfolio-item">
+        <div class="col-md-6 portfolio-item" ng-repeat="preke in mc.prekiumasyvas">
             <a href="#">
                 <img class="img-responsive"
-                     src="src/pictures/15032847_1385907601420578_2904714286766267430_n.jpg" height="699"
-                     width="699"/>
-
-            </a>
-            <h3>
-                <a href="#">Darbų galerija</a>
-            </h3>
-            <p> Čia turėtų būti prekės aprašymas.</p>
-            <button onclick="myFunction()">Pridėti į krepšelį</button>
-        </div>
-        <div class="col-md-6 portfolio-item">
-            <a href="#">
-                <img class="img-responsive"
-                     src="src/pictures/15032308_1385913438086661_7471027308842516511_n.jpg" alt="" height="723"
-                     width="724"></a>
-
-            <h3>
-                <a href="#">Darbų Galerija</a>
-            </h3>
-            <p> Čia turėtų būti prekės aprašymas.</p>
-            <button onclick="myFunction()">Pridėti į krepšelį</button>
-        </div>
-    </div>
-    <!-- /.row -->
-
-    <!-- Projects Row -->
-    <div class="row">
-        <div class="col-md-6 portfolio-item" ng-repeat="prekės in prekiu" >
-            <a href="#">
-                <img class="img-responsive"
-                     src="src/pictures/15032890_1385913448086660_1485710228594869623_n.jpg" height="638"
+                     src="{{preke.img}}" height="638"
                      width="637"/></a>
             <h3>
-                <a href="#">Darbų Galerija</a>
+                <a href="{{preke.url}}">{{preke.Pavadinimas}}</a>
             </h3>
-            <p> Čia turėtų būti prekės aprašymas</p>
-            <button onclick="myFunction()">Pridėti į krepšelį</button>
-        </div>
-        <div class="col-md-6 portfolio-item">
-            <a href="#">
-                <img class="img-responsive"
-                     src="src/pictures/15036622_1385913441419994_3886206400751419442_n.jpg" height="638"
-                     width="637"/></a>
-            <h3>
-                <a href="#">Darbų Galerija</a>
-            </h3>
-            <p> Čia turėtų būti prekės aprašymas.</p>
-            <button onclick="myFunction()">Pridėti į krepšelį</button>
-        </div>
-    </div>
-
-
-    <!-- Projects Row -->
-    <div class="row">
-        <div class="col-md-6 portfolio-item">
-            <a href="#">
-                <img class="img-responsive"
-                     src="src/pictures/15094471_1385903594754312_6249980919776817129_n.jpg" height="651"
-                     width="651"/></a>
-            <h3>
-                <a href="#">Darbų Galerija</a>
-            </h3>
-            <p> Čia turėtų būti prekės aprašymas.</p>
-            <button onclick="myFunction()">Pridėti į krepšelį</button>
-        </div>
-        <div class="col-md-6 portfolio-item">
-            <a href="#">
-                <img class="img-responsive"
-                     src="src/pictures/15110245_1385910011420337_8150649659147828340_o.jpg" height="801"
-                     width="800"/></a>
-            <h3>
-                <a href="#">Darbų Galerija</a>
-            </h3>
-            <p> Čia turėtų būti prekės aprašymas.</p>
-            <button onclick="myFunction()">Pridėti į krepšelį</button>
+            <p>{{preke.aprasymas}}</p>
+            <button ng-click="pridetiPreke(preke.id)">Pridėti į krepšelį</button>
         </div>
 
-    </div>
     <!-- Pagination -->
     <div class="row text-center">
         <div class="col-lg-12">
