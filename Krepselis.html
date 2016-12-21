@@ -84,9 +84,7 @@
 <div class="col-md-12" ng-controller="prekiukmController as pkmc">
 
     <h1>Prekių krepšelis</h1>
-    <h5>Prekių krepšelis tuščias</h5>
-
-    <div ng-repeat="preke in pkmc.prekiukm">{{preke.Pavadinimas}}</div>
+    <div ng-repeat="preke in pkmc.prekiukm">{{preke.Pavadinimas}}{{preke.img}}</div>
 
 </div>
 <script src="src/js/angular.min.js"></script>
