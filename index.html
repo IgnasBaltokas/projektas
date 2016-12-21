@@ -25,7 +25,7 @@
 
 </head>
 
-<body>
+<body ng->
 
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -57,6 +57,9 @@
                 <li class="active">
                     <a href="index.html">Darbų galerija</a>
                 </li>
+                <li class="active">
+                <a href="Kontaktai.html">Kontaktai</a>
+            </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -126,7 +129,7 @@
 
     <!-- Projects Row -->
     <div class="row">
-        <div class="col-md-6 portfolio-item">
+        <div class="col-md-6 portfolio-item" ng-repeat="prekės in prekiu" >
             <a href="#">
                 <img class="img-responsive"
                      src="src/pictures/15032890_1385913448086660_1485710228594869623_n.jpg" height="638"
