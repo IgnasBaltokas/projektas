@@ -59,4 +59,5 @@ app.controller("prekiukmController", function () {
         mc.prekiukm.push(produktas);
     }
 
+
 });
